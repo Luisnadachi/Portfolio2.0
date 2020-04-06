@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Luis Eduardo R. Teixeira-Portfolio</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="main.css">
+        
+    </head>
+    <body>
+
+        <aside>
+            <nav>
+                <img src="./assets/foto.jpeg" alt="">
+                <a href="#home"><i class="material-icons md-36">home</i>
+                <p>Home</p>
+                </a>
+
+                <a href="#sobre"><i class="material-icons md-36">person</i>
+                <p>Sobre</p>
+                </a>
+
+                
+                <a href="#projeto"><i class="material-icons md-36">folder</i>
+                <p>Projetos</p>
+                </a>
+
+                
+                <a href="#contato"><i class="material-icons md-36">mail</i>
+                <p>Contato</p>
+                </a>
+            </nav>
+        </aside>
+
+        <nav class="mobile-nav">
+            <a href="#home">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projeto">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <main>
+            <header class="home" id="home"><br><br>
+                <h1>Eu sou Luis Eduardo</h1>
+                <h5>Full-Stack Developer</h5>
+                <img src ="./assets/foto.jpeg" alt="">
+            </header>
+        </main>
+        <section class="sobre" id="sobre">
+            <h2>Sobre mim</h2>
+            <p>
+                <span>Olá, Eu sou Luis Eduardo</span>, sou full stack developer com interesse em trabalhar
+                com react, formado em técnico de informática e atualmente estou cursando Ciências da Computação
+                pela Unisuam.
+            </p>
+
+            <p>
+                Eu atualmente tenho experiencia com Html5, CSS3, Bootstrap, JavaScript, Jquery, React, React Native, 
+                Visual Basic, MySQL e Photoshop.
+            </p>
+
+            <h3> Minhas Habilidades</h3>
+            <p>Html 5</p>
+            <div class="container">
+                <div class="skills html">75%</div>    
+            </div>
+
+            <p>CSS3</p>
+            <div class="container">
+                <div class="skills CSS">60%</div>    
+            </div>
+
+            <p>JavaScript</p>
+            <div class="container">
+                <div class="skills js">40%</div>    
+            </div>
+
+            <p>Jquery</p>
+            <div class="container">
+                <div class="skills jquery">20%</div>    
+            </div>
+
+            <p>React</p>
+            <div class="container">
+                <div class="skills react">30%</div>    
+            </div>
+
+            <p>React Native </p>
+            <div class="container">
+                <div class="skills rn">20%</div>    
+            </div>
+
+            <p>Git</p>
+            <div class="container">
+                <div class="skills git">75%</div>    
+            </div>
+        </section>
+
+        <section class="projeto" id="projeto">
+            <h2>Projetos</h2>
+            
+            <div class="row-halves">
+                <div class="col">
+                    <img src="./assets/baturitec.png" alt="">
+                    <h3>Sistema de Garantia</h3>
+                    <p>
+                        Um sistema de controle de garantia de peças e serviços, melhorando assim 
+                        o gerenciamento de quais garantias ainda estão ativas, foi feito usando 
+                        visual basic e banco de dados mysql.
+                    </p>
+                </div>
+
+                <div class="col">
+                    <img src="./assets/7ways.png" alt="">
+                    <h3>Sistema de Locadora de Jogos</h3>
+                    <p>
+                        Um sistema para gerenciamento de estoque, clientes, funcionários e vendas de uma 
+                        locadora de jogos de mídia física, foi feito usando visual basic e banco de dados 
+                        mysql online.
+                    </p>
+                </div> 
+            </div>
+
+            <div class="row-halves">
+                <div class="col">
+                    <img src="./assets/hero.svg" alt="">
+                    <h3>Be The Hero</h3>
+                    <p>
+                        Sistema desenvolvido durante a semana Omnistack11 feita pela RocketSeat, com inuito 
+                        de servir como um ponto para ONGs encontrarem doadores, foi feito utilizando React e 
+                        React Native.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+
+            <h2>Contato</h2>
+            <div class="container">
+              <form action="">
+                  <label for="name">Nome</label>
+                  <input type="text" id="name" name="name">
+                  <label for="email">E-mail</label>
+                  <input type="text" id="email" name="email">
+                  <label for="message">Mensagem</label>
+                  <textarea name="message" id="message"
+                   style="height:200px"></textarea>
+                   <input type="submit" value="message">
+              </form>
+            </div>
+
+        </section>
+        <footer>
+            <section class="top-bar">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-github"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+            </section>
+
+            <section class="bottom-bar">
+                <p>&copy 2020 | Todos os direitos reservados</p>
+            </section>
+        </footer>
+    </body>
+</html>
