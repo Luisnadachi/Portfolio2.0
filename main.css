@@ -237,7 +237,6 @@ textarea{
 form input [type="text"]:focus,
 textarea:focus{
     outline: none;
-    border:1px solid #009688;
 }
 
 input[type="submit"]{
